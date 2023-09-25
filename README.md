@@ -1,1 +1,3 @@
-# starter-pete-thinkful-portfolio
+# Assessment: Deeper with CSS
+
+CSS Flexbox usage example
