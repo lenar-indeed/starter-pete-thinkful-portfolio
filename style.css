@@ -16,7 +16,6 @@ h3 {
   text-align: center;
 }
 
-/* Header */
 header {
   text-align: center;
 }
@@ -37,9 +36,18 @@ article div {
   width: 100%;
 }
 
+article p {
+  font-size: 14px;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+  text-align: left;
+}
+
+li {
+  text-align: left;
 }
 
 /* Links */
@@ -60,6 +68,7 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  margin-top: 30px;
 }
 
 .image-circle {
@@ -68,11 +77,28 @@ img {
 }
 
 /* Footer */
-footer {
+footer p{
   text-align: center;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display: flex;
+}
+
+.item {
+  margin: 5px;
+  flex: 1;
+}
+
+.item-2 {
+  flex: 2;
+}
+
+.item-3 {
+  flex: 3;
 }
